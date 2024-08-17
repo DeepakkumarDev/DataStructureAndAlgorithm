@@ -1,40 +1,17 @@
-# Prerequisites
-*.d
-
 # Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+cplus/*.slo
+cplus/*.lo
+cplus/*.o
+cplus/*.obj
 
 # Executables
-*.exe
-*.out
-*.app
+cplus/*.exe
+cplus/*.out
+cplus/*.app
 
-
-#Python File 
+# Python files
 
 # Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+python/__pycache__/
+python/*.py[cod]
+python/*$py.class
